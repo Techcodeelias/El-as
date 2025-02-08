@@ -1,0 +1,205 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+h1 {
+    color: #7a0d05;
+    text-align: center;
+    font-family:'Arial Narrow Bold';
+    font-size: 300%;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    gap: 5px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search-bar button {
+    background-color: #000000;
+    color: white;
+    border: rgb(8, 7, 7);
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Banner principal */
+.banner h2, h6{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Sección de recomendaciones y libros */
+section {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.book-item {
+    text-align: center;
+    color: #000000;
+    max-width: 150px;
+}
+
+.book-item img {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+}
+
+.book-list, h3, h4 { 
+    color: #770e0e;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.book-list p{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.buy-button {
+    background-color: #b9190e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.buy-button:hover {
+    background-color: #b9190e;
+}
+
+/* Sección sobre nosotros */
+.container1{
+    display: flex;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+}
+
+.about-us h5 {
+    color: #770e0e;
+    font-size: 1.5em;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000000;
+    text-align: justify;
+}
+
+/* Pie de página */
+footer {
+    background-color: #926c3bbd;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.location img, .social-media img, .phone img, .email img {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: white;
+}
+
+.location p strong, .email P strong, .social-media p strong {
+    margin: 5px 0;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+#container2{
+    display: inline-block;
+    height: 500px;
+    width: 1800px;
+    white-space: nowrap;
+    overflow-x: scroll;    
+}
